@@ -1,5 +1,5 @@
 
-// Used sample solution from assignment 9
+// Used sample solution from assignment 10
 
 #include <string>
 #include <iostream>
@@ -356,5 +356,98 @@ Student StudentArrayUtilities::removeStudent()
 
 /* -------------------------- run ------------------------------------------
  
- 
+ Before:
+ bartman, petra points: 102
+ charters, rodney points: 295
+ a, m points: 1
+ b, n points: 2
+ c, o points: 3
+ d, p points: 4
+ e, q points: 5
+ f, r points: 6
+ g, s points: 7
+ h, t points: 8
+ i, u points: 9
+ smith, fred points: 95
+ bauer, jack points: 123
+ jacobs, carrie points: 195
+ renquist, abe points: 148
+ jackson, trevor points: 108
+ perry, fred points: 225
+ loceff, fred points: 44
+ stollings, pamela points: 452
+ charters, rodney points: 295
+
+ After default sort:
+ a, m points: 1
+ b, n points: 2
+ bartman, petra points: 102
+ bauer, jack points: 123
+ c, o points: 3
+ charters, rodney points: 295
+ charters, rodney points: 295
+ d, p points: 4
+ e, q points: 5
+ f, r points: 6
+ g, s points: 7
+ h, t points: 8
+ i, u points: 9
+ jackson, trevor points: 108
+ jacobs, carrie points: 195
+ loceff, fred points: 44
+ perry, fred points: 225
+ renquist, abe points: 148
+ smith, fred points: 95
+ stollings, pamela points: 452
+
+ After sort by first:
+ renquist, abe points: 148
+ jacobs, carrie points: 195
+ loceff, fred points: 44
+ perry, fred points: 225
+ smith, fred points: 95
+ bauer, jack points: 123
+ a, m points: 1
+ b, n points: 2
+ c, o points: 3
+ d, p points: 4
+ stollings, pamela points: 452
+ bartman, petra points: 102
+ e, q points: 5
+ f, r points: 6
+ charters, rodney points: 295
+ charters, rodney points: 295
+ g, s points: 7
+ h, t points: 8
+ jackson, trevor points: 108
+ i, u points: 9
+
+ Median of evenClass = 69.5
+
+ Removed  stollings, pamela points: 452
+ Removed  charters, rodney points: 295
+ Removed  charters, rodney points: 295
+ Removed  perry, fred points: 225
+ Removed  jacobs, carrie points: 195
+ Removed  renquist, abe points: 148
+ Removed  bauer, jack points: 123
+ Removed  jackson, trevor points: 108
+ Removed  bartman, petra points: 102
+ Removed  smith, fred points: 95
+ Removed  loceff, fred points: 44
+ Removed  i, u points: 9
+ Removed  h, t points: 8
+ Removed  g, s points: 7
+ Removed  f, r points: 6
+ Removed  e, q points: 5
+ Removed  d, p points: 4
+ Removed  c, o points: 3
+ Removed  b, n points: 2
+ Removed  a, m points: 1
+
+ Empty after 20 removes.
+ Full after 20 adds.
+
+ Program ended with exit code: 0
+
  ------------------------------------------------------------------------- */
